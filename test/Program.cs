@@ -13,7 +13,6 @@
         if (XO[2,0].Equals(XO[2,1]) && XO[2,0].Equals(XO[2,2])) if (!XO[2,0].Equals(' ')) return "" + XO[2,0] + " is the winner";
         for(int i = 0; i < XO.GetLength(0);i++) for(int j=0;i<XO.GetLength(0);j++) if (XO[i,j].Equals(' ')) return "not ended";
         return "Draw";
-        
     }
     static void Main()
     {
